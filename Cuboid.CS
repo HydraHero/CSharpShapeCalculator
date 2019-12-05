@@ -14,7 +14,7 @@ namespace CSharpShapeCalculator
         private void CalculateCuboidSurfArea()
         {
 
-            result = 2 * (length * width) + (length * depth) + (width * depth);
+            result = 2 * ((length * width) + (length * depth) + (width * depth));
         }
 
         private void CalculateCuboidVolume()
