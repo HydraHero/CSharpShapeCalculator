@@ -30,4 +30,5 @@ namespace CSharpShapeCalculator
             CalculateCircumference();
             InputOutput.OutputResult("Circumference", result);
         }
+    }
 }
